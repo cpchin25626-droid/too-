@@ -1,0 +1,5 @@
+{
+  "name": "定期定額",
+  "description": "A financial calculator app that helps users visualize the power of compound interest through a color-coded table and AI-powered insights.",
+  "requestFramePermissions": []
+}
