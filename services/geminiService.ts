@@ -2,7 +2,7 @@ import { GoogleGenAI } from "@google/genai";
 
 // Initialize Gemini Client
 // NOTE: The API key is strictly obtained from process.env.API_KEY as per guidelines.
-const ai = new GoogleGenAI({ apiKey: process.env.API_KEY });
+const ai = new GoogleGenAI({ apiKey: GOOGLE_API_KEY });
 
 export const getFinancialAdvice = async (
   monthlyAmount: number,
